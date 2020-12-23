@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  margin: auto;
+}
+.App header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App header h1 {
+  text-align: center;
+}
+.App header .nav {
+  display: none;
+}
+.App header .nav-small .nav-option {
+  padding: 0.2em 0;
+}
+.App .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main .about .creators {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.App footer .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.App footer .footer img {
+  width: 15%;
+  padding: 0.5em;
+}
+.App footer .footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.App footer .footer-nav .nav-option {
+  padding: 1em;
+}
