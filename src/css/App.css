@@ -1,3 +1,18 @@
+.center {
+  margin: auto;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -39,9 +54,22 @@
   justify-content: center;
   align-items: center;
 }
-.App footer {
+.App .main .links {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .main .links .toggle-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.App footer {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 95%;
@@ -56,12 +84,12 @@
   width: 15%;
   padding: 0.5em;
 }
-.App footer .footer-nav {
+.App footer .footer .footer-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.App footer .footer-nav .nav-option {
+.App footer .footer .footer-nav .nav-option {
   padding: 1em;
 }

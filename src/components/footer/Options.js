@@ -8,9 +8,9 @@ const Options = (props) => {
 
     const options = [
         "Resources",
-        "Links",
         "Benefits",
-        "About"
+        "About",
+        "Contact"
     ]
 
     const handleClick = (e) => {

@@ -9,8 +9,8 @@ import Footer from './components/footer/index'
 import Home from './components/Home'
 import About from './components/About'
 import Resources from './components/Resources'
-import Links from './components/Links'
 import Benefits from './components/Benefits'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -26,11 +26,11 @@ const App = () => {
         <Route path='/Resources'>
           <Resources />
         </Route>
-        <Route path='/Links'>
-          <Links />
-        </Route>
         <Route path='/Benefits'>
           <Benefits />
+        </Route>
+        <Route path='/Contact'>
+          <Contact />
         </Route>
         <Route exact path='/'>
           <Home />
